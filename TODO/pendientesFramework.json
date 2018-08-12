@@ -1,0 +1,13 @@
+{
+    "name": "clientesPodologiaMIP",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "enriq",
+    "Pendientes":{
+        "Permisos":"Clase que valide los permisos",
+        "Interceptores":"Funcionalidad de interceptores",
+        "HTML-PHP":"Separa los php con los html",
+        "MAIL Sender":"Clase que envie correos automaticos",
+        "Motor BD":"Lenguaje propio que arme la BD  de forma dinamica"
+    }
+}

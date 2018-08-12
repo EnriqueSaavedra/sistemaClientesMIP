@@ -1,0 +1,237 @@
+
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 31/07/2018 04:35:12
+Mensaje: Error iniciando configuracion BD: Error conexión BD: SQLSTATE[HY000] [1045] Access denied for user 'dry64_drysoft'@'localhost' (using password: YES)
+Codigo: Error de conexión a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexión BD: SQLSTATE[HY000] [1045] Access denied for user 'dry64_drysoft'@'localhost' (using password: YES)
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\CarritoDAO.php
+                    [line] => 22
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\footer.php
+                    [line] => 6
+                    [function] => __construct
+                    [class] => CarritoDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 28
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\footer.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => NO SESSION
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => mr1qk9ehqvtv13kj6gui6nvsm3
+        )
+
+    [POST] => NO POST
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=mr1qk9ehqvtv13kj6gui6nvsm3
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59129
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533004512.803
+            [REQUEST_TIME] => 1533004512
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 31/07/2018 04:37:55
+Mensaje: Error iniciando configuracion BD: Error conexión BD: SQLSTATE[HY000] [1045] Access denied for user 'dry64_drysoft'@'localhost' (using password: YES)
+Codigo: Error de conexión a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexión BD: SQLSTATE[HY000] [1045] Access denied for user 'dry64_drysoft'@'localhost' (using password: YES)
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\CarritoDAO.php
+                    [line] => 22
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\footer.php
+                    [line] => 6
+                    [function] => __construct
+                    [class] => CarritoDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 28
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\footer.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => NO SESSION
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => mr1qk9ehqvtv13kj6gui6nvsm3
+            [_ga] => GA1.1.949263292.1533004513
+            [_gid] => GA1.1.2097090609.1533004513
+        )
+
+    [POST] => NO POST
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=mr1qk9ehqvtv13kj6gui6nvsm3; _ga=GA1.1.949263292.1533004513; _gid=GA1.1.2097090609.1533004513
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59186
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533004675.776
+            [REQUEST_TIME] => 1533004675
+        )
+
+)
+
+--------------------------------------------------

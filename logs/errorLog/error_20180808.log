@@ -1,0 +1,1604 @@
+
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 04:03:51
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [1045] Access denied for user 'dry64_drysoft'@'localhost' (using password: YES)
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [1045] Access denied for user 'dry64_drysoft'@'localhost' (using password: YES)
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\CarritoDAO.php
+                    [line] => 22
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\footer.php
+                    [line] => 6
+                    [function] => __construct
+                    [class] => CarritoDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 28
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\footer.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => NO SESSION
+    [COOKIE] => NO COOKIE
+    [POST] => NO POST
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 54064
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533693831.092
+            [REQUEST_TIME] => 1533693831
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:32:56
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 15
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 1223456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 63
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ORIGIN] => http://localhost
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699176.093
+            [REQUEST_TIME] => 1533699176
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:33:03
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 15
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699183.315
+            [REQUEST_TIME] => 1533699183
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:33:18
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ORIGIN] => http://localhost
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699198.892
+            [REQUEST_TIME] => 1533699198
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:33:28
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699208.314
+            [REQUEST_TIME] => 1533699208
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:34:48
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 12345
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 61
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ORIGIN] => http://localhost
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699288.539
+            [REQUEST_TIME] => 1533699288
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:34:57
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699297.331
+            [REQUEST_TIME] => 1533699297
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:36:02
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ORIGIN] => http://localhost
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699362.782
+            [REQUEST_TIME] => 1533699362
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:36:24
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ORIGIN] => http://localhost
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699384.066
+            [REQUEST_TIME] => 1533699384
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:36:44
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ORIGIN] => http://localhost
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699404.311
+            [REQUEST_TIME] => 1533699404
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:36:51
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699411.531
+            [REQUEST_TIME] => 1533699411
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 08/08/2018 05:37:49
+Mensaje: Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+Codigo: Error de conexi贸n a bd
+Ruta Solicitud: /clientesPodologiaMIP/
+Exception: Exception Object
+(
+    [message:protected] => Error iniciando configuracion BD: Error conexi贸n BD: SQLSTATE[HY000] [2002] Solo se permite un uso de cada direcci髇 de socket (protocolo/direcci髇 de red/puerto)
+
+    [string:Exception:private] => 
+    [code:protected] => 400
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\clases\BDconn.php
+    [line:protected] => 31
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\clases\DAO\UsuarioDAO.php
+                    [line] => 19
+                    [function] => __construct
+                    [class] => BDconn
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                    [line] => 14
+                    [function] => __construct
+                    [class] => UsuarioDAO
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 16
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\PUBLIC\home.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [usuario] => 
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => d0n7qsvaqo1btcmevsq3ubnenj
+            [_ga] => GA1.1.588528855.1533696334
+            [_gid] => GA1.1.1032749900.1533696334
+        )
+
+    [POST] => Array
+        (
+            [inputEmail] => test@gmail.com
+            [inputPassword] => 123456
+            [Submit] => Submit
+        )
+
+    [GET] => NO GET
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 62
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+            [HTTP_ORIGIN] => http://localhost
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=d0n7qsvaqo1btcmevsq3ubnenj; _ga=GA1.1.588528855.1533696334; _gid=GA1.1.1032749900.1533696334
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 49591
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /clientesPodologiaMIP/
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1533699469.641
+            [REQUEST_TIME] => 1533699469
+        )
+
+)
+
+--------------------------------------------------
