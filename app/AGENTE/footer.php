@@ -35,7 +35,7 @@ if(!isset($_GET['noFoot'])){ ?>
     $(document).ready(function() {
         var sources = {
             servicios:"<?=Link::getRutaHref('AGENTE', 'mantenedores/servicios')?>",
-            clientes:"<?=Link::getRutaHref('AGENTE', 'mantenedores/clientes')?>",
+            pacientes:"<?=Link::getRutaHref('AGENTE', 'mantenedores/pacientes')?>",
             patologia:"<?=Link::getRutaHref('AGENTE', 'mantenedores/patologia')?>",
             atencion:"<?=Link::getRutaHref('AGENTE', 'atencion/atencion')?>"
         };

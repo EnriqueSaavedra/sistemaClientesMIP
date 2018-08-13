@@ -1,0 +1,2393 @@
+
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:24:29
+Mensaje: DateTime::__construct(): Failed to parse time string (13/10/1902) at position 0 (1): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (13/10/1902) at position 0 (1): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 13
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 13
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 13/10/1902
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => ok5mjr5ogkihkqc2sha6mvlce3
+            [_ga] => GA1.1.1763563680.1534105807
+            [_gid] => GA1.1.1770301352.1534105807
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 
+            [Submit] => Agregar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique saavedra
+            [fechaMant] => 13/10/1902
+            [telMant] => 951049774
+            [emailMant] => enrique.saavedra.perez@gmail.com
+            [dirMant] => test
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 180
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=ok5mjr5ogkihkqc2sha6mvlce3; _ga=GA1.1.1763563680.1534105807; _gid=GA1.1.1770301352.1534105807
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 57668
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534112669.533
+            [REQUEST_TIME] => 1534112669
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:40:41
+Mensaje: DateTime::__construct(): Failed to parse time string (13/10/1902) at position 0 (1): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (13/10/1902) at position 0 (1): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 25
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 13/10/1902
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 13/10/1902
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59069
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113640.99
+            [REQUEST_TIME] => 1534113640
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:41:39
+Mensaje: DateTime::__construct(): Failed to parse time string (13/10/1902) at position 0 (1): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (13/10/1902) at position 0 (1): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 25
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 13/10/1902
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 13/10/1902
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59164
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113699.203
+            [REQUEST_TIME] => 1534113699
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:42:33
+Mensaje: DateTime::__construct(): Failed to parse time string (13/10/1909) at position 0 (1): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (13/10/1909) at position 0 (1): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 25
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 13/10/1909
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 13/10/1909
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59255
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113753.834
+            [REQUEST_TIME] => 1534113753
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:43:23
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 25
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59329
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113803.716
+            [REQUEST_TIME] => 1534113803
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:44:24
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 25
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59412
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113864.028
+            [REQUEST_TIME] => 1534113864
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:44:37
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 26
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 26
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59434
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113877.567
+            [REQUEST_TIME] => 1534113877
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:44:58
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 26
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 26
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59466
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113898.489
+            [REQUEST_TIME] => 1534113898
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:45:11
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 26
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 26
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59484
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113911.323
+            [REQUEST_TIME] => 1534113911
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:45:12
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 26
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 26
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59484
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113912.581
+            [REQUEST_TIME] => 1534113912
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:45:31
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 27
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 27
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59515
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113931.279
+            [REQUEST_TIME] => 1534113931
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:45:33
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 27
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 27
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59515
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113933.015
+            [REQUEST_TIME] => 1534113933
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:45:58
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 28
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 28
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59554
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113958.851
+            [REQUEST_TIME] => 1534113958
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:46:13
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 28
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 28
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59576
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113973.633
+            [REQUEST_TIME] => 1534113973
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:46:21
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 29
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 29
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59590
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113981.301
+            [REQUEST_TIME] => 1534113981
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:46:27
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 28
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 28
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+            [_gat] => 1
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988; _gat=1
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59600
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113987.018
+            [REQUEST_TIME] => 1534113987
+        )
+
+)
+
+--------------------------------------------------
+--------------------------------------------------
+Tipo de Mensaje: Error critico (ERROR)
+Fecha: 13/08/2018 00:46:36
+Mensaje: DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+Codigo: Error desconocido
+Ruta Solicitud: /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+Exception: Exception Object
+(
+    [message:protected] => DateTime::__construct(): Failed to parse time string (28/02/1901) at position 0 (2): Unexpected character
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+    [line:protected] => 29
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                    [line] => 29
+                    [function] => __construct
+                    [class] => DateTime
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 28/02/1901
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\clientesPodologiaMIP\index.php
+                    [line] => 18
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\clientesPodologiaMIP\app\AGENTE\mantenedores\pacientes.php
+                        )
+
+                    [function] => require_once
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [severity] => 2
+)
+HTTP Var: Array
+(
+    [SESSION] => Array
+        (
+            [USUARIO] => Array
+                (
+                    [id] => 1
+                    [grupo] => 3
+                    [email] => test@gmail.com
+                    [nombre] => francisca
+                    [CTX] => AGENTE
+                )
+
+        )
+
+    [COOKIE] => Array
+        (
+            [PHPSESSID] => 851eqfrctan1dukfr7jfopooba
+            [_ga] => GA1.1.1928289560.1534112988
+            [_gid] => GA1.1.1391948325.1534112988
+        )
+
+    [POST] => Array
+        (
+            [idPacienteMant] => 5
+            [Submit] => Editar
+            [rutMant] => 18.247.021-k
+            [nombreMant] => enrique2
+            [fechaMant] => 28/02/1901
+            [telMant] => 123123123
+            [emailMant] => easdasda
+            [dirMant] => asdasdasdasd
+        )
+
+    [GET] => Array
+        (
+            [ctx] => AGENTE
+            [app] => mantenedores/pacientes
+        )
+
+    [SERVER] => Array
+        (
+            [MIBDIRS] => C:/xampp/php/extras/mibs
+            [MYSQL_HOME] => \xampp\mysql\bin
+            [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+            [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+            [PHPRC] => \xampp\php
+            [TMP] => \xampp\tmp
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 154
+            [HTTP_CACHE_CONTROL] => max-age=0
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [CONTENT_TYPE] => application/x-www-form-urlencoded
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+            [HTTP_REFERER] => http://localhost/clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9
+            [HTTP_COOKIE] => PHPSESSID=851eqfrctan1dukfr7jfopooba; _ga=GA1.1.1928289560.1534112988; _gid=GA1.1.1391948325.1534112988
+            [PATH] => C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files (x86)\Skype\Phone\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Users\enriq\AppData\Local\Microsoft\WindowsApps;C:\Users\enriq\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => C:/xampp/htdocs
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+            [SERVER_ADMIN] => postmaster@localhost
+            [SCRIPT_FILENAME] => C:/xampp/htdocs/clientesPodologiaMIP/index.php
+            [REMOTE_PORT] => 59616
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => ctx=AGENTE&app=mantenedores/pacientes
+            [REQUEST_URI] => /clientesPodologiaMIP/?ctx=AGENTE&app=mantenedores/pacientes
+            [SCRIPT_NAME] => /clientesPodologiaMIP/index.php
+            [PHP_SELF] => /clientesPodologiaMIP/index.php
+            [REQUEST_TIME_FLOAT] => 1534113996.928
+            [REQUEST_TIME] => 1534113996
+        )
+
+)
+
+--------------------------------------------------

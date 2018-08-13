@@ -13,12 +13,13 @@ require_once(Link::include_file('clases/utilidad/DBO.php'));
  * @author maria ignacia
  */
 class Atencion extends DBO{
-    private $paciente_id;
-    private $servicio_id;
-    private $numero;
-    private $descripcion;
-    private $precio;
-    private $fecha;
+    public $paciente_id;
+    public $servicio_id;
+    public $numero;
+    public $descripcion;
+    public $precio;
+    public $fecha;
+    public $podologo;
     
     function getPaciente_id() {
         return $this->paciente_id;
@@ -67,7 +68,31 @@ class Atencion extends DBO{
     function setFecha($fecha) {
         $this->fecha = $fecha;
     }
+    
+    function getPodologo() {
+        return $this->podologo;
+    }
 
+    function setPodologo($podologo) {
+        $this->podologo = $podologo;
+    }
+
+    function getFechaFormatoChile(){
+        $fecha = new DateTime($this->fecha);
+        return $fecha->format('d/m/Y H:i');
+    }
+    
+    function getPrecioDisplay(){
+        return number_format($this->precio, 0, ',', '.');
+    }
+    
+    function getDetalleParcial(){
+        if(strlen($this->getDescripcion()) > 15)
+            return substr($this->getDescripcion(), 0, 15)."...";
+        else
+            return $this->getDescripcion();
+    }
+    
         
     //put your code here
 }

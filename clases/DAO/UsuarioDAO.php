@@ -63,5 +63,23 @@ class UsuarioDAO extends BDconn{
         $grupo = $consulta->fetchObject("GrupoUsuario");
         return $grupo;
     }
+    
+    public function getPodologoCombo(){
+        $consulta = $this->pdo->prepare("SELECT id,nombre from usuario WHERE grupo = 1;");
+        $respuesta = $consulta->execute();
+        if(!$respuesta)
+            return null;
+        return $consulta->fetchAll(PDO::FETCH_ASSOC);
+    }
+    
+    public function getUsuarioNameById($id){
+        $consulta = $this->pdo->prepare("SELECT nombre from usuario WHERE id = :id;");
+        $respuesta = $consulta->execute(array(
+            "id" => $id
+        ));
+        if(!$respuesta)
+            return null;
+        return $consulta->fetchColumn();
+    }
     //put your code here
 }

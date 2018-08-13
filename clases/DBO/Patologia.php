@@ -14,9 +14,9 @@ require_once(Link::include_file('clases/utilidad/DBO.php'));
  */
 class Patologia extends DBO{
     //put your code here
-    private $id;
-    private $nombre;
-    private $detalle;
+    public $id;
+    public $nombre;
+    public $detalle;
     
     function getId() {
         return $this->id;
@@ -40,6 +40,12 @@ class Patologia extends DBO{
 
     function setDetalle($detalle) {
         $this->detalle = $detalle;
+    }
+    function getDetalleParcial(){
+        if(strlen($this->getDetalle()) > 30)
+            return substr($this->getDetalle(), 0, 30)."...";
+        else
+            return $this->getDetalle();
     }
 
 

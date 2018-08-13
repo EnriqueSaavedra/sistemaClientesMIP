@@ -14,16 +14,35 @@ require_once(Link::include_file('clases/utilidad/DBO.php'));
  */
 class Paciente extends DBO{
     
-    private $id;
-    private $rut;
-    private $nombre;
-    private $fecha_nacimiento;
-    private $telefono;
-    private $email;
-    private $comuna;
-    private $calle;
+    public $id;
+    public $rut;
+    public $nombre;
+    public $fecha_nacimiento;
+    public $telefono;
+    public $email;
+    public $region;
+    public $ciudad;
+    public $calle;
+    public $numero_calle;
     
-    function getId() {
+    
+    function getNumero_calle() {
+        return $this->numero_calle;
+    }
+
+    function setNumero_calle($numero_calle) {
+        $this->numero_calle = $numero_calle;
+    }
+        
+    function getCiudad() {
+        return $this->ciudad;
+    }
+
+    function setCiudad($ciudad) {
+        $this->ciudad = $ciudad;
+    }
+
+        function getId() {
         return $this->id;
     }
 
@@ -46,11 +65,6 @@ class Paciente extends DBO{
     function getEmail() {
         return $this->email;
     }
-
-    function getComuna() {
-        return $this->comuna;
-    }
-
     function getCalle() {
         return $this->calle;
     }
@@ -70,6 +84,10 @@ class Paciente extends DBO{
     function setFecha_nacimiento($fecha_nacimiento) {
         $this->fecha_nacimiento = $fecha_nacimiento;
     }
+    function getFechaFormatoChile(){
+        $fecha = new DateTime($this->fecha_nacimiento);
+        return $fecha->format('d/m/Y');
+    }
 
     function setTelefono($telefono) {
         $this->telefono = $telefono;
@@ -78,13 +96,28 @@ class Paciente extends DBO{
     function setEmail($email) {
         $this->email = $email;
     }
-
-    function setComuna($comuna) {
-        $this->comuna = $comuna;
-    }
-
+    
     function setCalle($calle) {
         $this->calle = $calle;
+    }
+    
+    function getEdad(){
+        $fechaNacimiento = new DateTime($this->getFecha_nacimiento());
+        $diff = $fechaNacimiento->diff(new DateTime());
+        return $diff->y;
+    }
+    
+    public static function limpiarRut($rut){
+        $rut = str_replace(".", "", $rut);
+        return str_replace("-", "", $rut);
+    }
+    
+    function getRegion() {
+        return $this->region;
+    }
+
+    function setRegion($region) {
+        $this->region = $region;
     }
 
         //put your code here

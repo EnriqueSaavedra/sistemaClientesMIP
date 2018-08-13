@@ -81,5 +81,24 @@ class ServiciosDAO extends BDconn {
             return false;
         return true;
     }
+    
+    public function getServiciosCombo(){
+        $consulta = $this->pdo->prepare("SELECT id,nombre,precio from servicio;");
+        $respuesta = $consulta->execute();
+        if(!$respuesta)
+            return null;
+        return $consulta->fetchAll(PDO::FETCH_ASSOC);
+    }
+    
+    
+    public function getServicioNameById($id){
+        $consulta = $this->pdo->prepare("SELECT nombre from servicio WHERE id = :id;");
+        $respuesta = $consulta->execute(array(
+            "id" => $id
+        ));
+        if(!$respuesta)
+            return null;
+        return $consulta->fetchColumn();
+    }
     //put your code here
 }

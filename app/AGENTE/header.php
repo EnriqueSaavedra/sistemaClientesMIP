@@ -40,6 +40,7 @@ function unicode2html($str){
         <!-- Current Page CSS -->
         <link rel="stylesheet" href="recursos/css/skins/default.css">
         <link rel="stylesheet" href="recursos/css/custom.css">
+        <link rel="stylesheet" href="recursos/css/bootstrap-datepicker.css">
         <!-- Vendor -->
         <script src="recursos/js/jquery.min.js"></script>
         <script src="recursos/js/bootstrap.min.js"></script>
@@ -57,6 +58,8 @@ function unicode2html($str){
         <!-- Google Analytics -->
 
         <script src="recursos/js/jquery.rut.min.js"></script>
+        <script src="recursos/js/bootstrap-datepicker.min.js"></script>
+        <script src="recursos/js/locales/bootstrap-datepicker.es.js"></script>
     </head>
     <body>
         <div class="container-fluid" style="padding: 0px !important;height: 100%;">
@@ -84,8 +87,8 @@ function unicode2html($str){
                     <div class="elemento-menu" data-source="servicios">
                         <strong>Servicios <span class="glyphicon glyphicon-copy"></span></strong>
                     </div>
-                    <div class="elemento-menu" data-source="clientes">
-                        <strong>Clientes <span class="glyphicon glyphicon-user"></span></strong>
+                    <div class="elemento-menu" data-source="pacientes">
+                        <strong>Pacientes <span class="glyphicon glyphicon-user"></span></strong>
                     </div>
                     <div class="elemento-menu" data-source="patologia">
                         <strong>Patologias <span class="glyphicon glyphicon-heart"></span></strong>

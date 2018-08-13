@@ -3,13 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/index.php</file>
-            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/app/PUBLIC/header.php</file>
-            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/app/PUBLIC/home.php</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/clases/DAO/AtencionDAO.php</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/config/debug.ini</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/clases/DBO/Atencion.php</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/clases/DAO/PacientesDAO.php</file>
             <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/clases/DAO/UsuarioDAO.php</file>
-            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/app/PUBLIC/footer.php</file>
-            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/clases/DBO/GrupoUsuario.php</file>
-            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/clases/DBO/Usuario.php</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/clases/DBO/Paciente.php</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/app/AGENTE/atencion/atencion.php</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/config/database.ini</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/app/AGENTE/mantenedores/patologia.php</file>
+            <file>file:/C:/xampp/htdocs/clientesPodologiaMIP/clases/DAO/ServiciosDAO.php</file>
         </group>
     </open-files>
 </project-private>
