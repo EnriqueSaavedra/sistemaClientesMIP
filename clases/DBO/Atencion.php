@@ -20,6 +20,7 @@ class Atencion extends DBO{
     public $precio;
     public $fecha;
     public $podologo;
+    public $fecha_registro;
     
     function getPaciente_id() {
         return $this->paciente_id;
@@ -79,7 +80,7 @@ class Atencion extends DBO{
 
     function getFechaFormatoChile(){
         $fecha = new DateTime($this->fecha);
-        return $fecha->format('d/m/Y H:i');
+        return $fecha->format('d/m/Y');
     }
     
     function getPrecioDisplay(){
@@ -93,6 +94,14 @@ class Atencion extends DBO{
             return $this->getDescripcion();
     }
     
-        
+    function getFecha_registro() {
+        return $this->fecha_registro;
+    }
+
+    function setFecha_registro($fecha_registro) {
+        $this->fecha_registro = $fecha_registro;
+    }
+
+            
     //put your code here
 }

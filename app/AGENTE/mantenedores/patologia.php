@@ -74,7 +74,7 @@ try {
         </form>
     </div>
     <div class="col-md-12">&nbsp;</div>
-    <div class="col-md-12">
+    <div class="col-md-12" style="max-height: 300px;overflow-x: hidden;overflow-y: scroll;">
         <table class="table table-striped">
             <thead>
             <th style="width: 5%;text-align: center;">N°</th>

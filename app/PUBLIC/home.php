@@ -14,6 +14,8 @@ try {
         $usuarioDao = new UsuarioDAO();
         if($usuarioDao->loginUsuario($email, $pass)){
             Link::redirect($_SESSION['USUARIO']['CTX'], 'home');
+        }else{
+            throw new UserException("Usuario no valido", UserException::WARNING);
         }
     }else if(!empty($_SESSION['USUARIO'])){
         Link::redirect($_SESSION['USUARIO']['CTX'], 'home');
@@ -27,9 +29,9 @@ try {
 <form action="#" class="form-signin" method="POST">
     <h2 class="form-signin-heading text-success">Ingresar</h2>
     <label for="inputEmail" class="sr-only">Usuario</label>
-    <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="EMAIL" value="test@gmail.com" required autofocus>
+    <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="EMAIL" required autofocus>
     <label for="inputPassword" class="sr-only">Clave</label>
-    <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Clave" value="123" required>
+    <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Clave" required>
     <div class="checkbox">
         <label>
           <input type="checkbox" value="remember-me"> Mantener sesión abierta

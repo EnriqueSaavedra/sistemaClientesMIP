@@ -29,6 +29,8 @@ class UsuarioDAO extends BDconn{
             return false;
         /*@var $usuario Usuario*/
         $usuario = $consulta->fetchObject("Usuario");
+        if(empty($usuario))
+            return false;
         $usuario->setGrupoObj($this->getGrupoUsuario($usuario->getGrupo()));
         if(empty($usuario->getGrupoObj()->getNombre()))
             return false;

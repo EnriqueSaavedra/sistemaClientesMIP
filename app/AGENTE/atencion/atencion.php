@@ -24,7 +24,9 @@ try {
         $atencion->setPodologo($_POST['podoMant']);
         $atencion->setPrecio($_POST['precioMant']);
         $now = new DateTime();
-        $atencion->setFecha($now->format('Y-m-d H:i:s'));
+        $fechaAtencion = new DateTime(str_replace("/","-", $_POST['fechaMant']));
+        $atencion->setFecha($fechaAtencion->format('Y-m-d H:i:s'));
+        $atencion->setFecha_registro($now->format('Y-m-d H:i:s'));
         $atencion->setDescripcion($_POST['comentMant']);
         if(!$atencionDao->registrarAtencion($atencion))
             throw new UserException("Imposible Crear Atencion.", UserException::ERROR);    
@@ -80,7 +82,7 @@ try {
         </form>
     </div>-->
     <div class="col-md-12">&nbsp;</div>
-    <div class="col-md-12">
+    <div class="col-md-12" style="max-height: 300px;overflow-x: hidden;overflow-y: scroll;">
         <table class="table table-striped">
             <thead>
             <th style="width: 5%;text-align: center;">N°</th>
@@ -157,6 +159,15 @@ try {
                     </div>
                 </div>
                 <div class="form-group">
+                    <label for="fechaMant" class="col-sm-2 control-label">Fecha Atención</label>
+                    <div class="input-group date col-sm-10" style="padding-right: 15px;padding-left: 15px;">
+                        <input type="text" readonly=""  data-date-format="dd/mm/yyyy" autocomplete="off" id="fechaMant" name="fechaMant" class="form-control datepicker">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
                     <label for="precioMant" class="col-sm-2 control-label">Monto</label>
                     <div class="col-sm-10">
                         <input type="number" class="form-control" name="precioMant" id="precioMant" placeholder="Ej: 30000">
@@ -185,6 +196,7 @@ try {
             var form = $('form[name=actionMantenedorAtencion]');
             form.find('input[name=pacienteMant]').val("");
             form.find('input[name=seviMant]').val("");
+            form.find('input[name=fechaMant]').val(""); 
             form.find('textarea[name=podoMant]').val("");
             form.find('textarea[name=comentMant]').val("");
             form.find('input[name=Submit]').val("Agregar");
@@ -195,6 +207,12 @@ try {
             var serivicio = $('#seviMant');
             var precio = $("#seviMant option[value=" + serivicio.val() + "]").data('precio-base');
             $('#precioMant').val(precio);
+            $('.date').datetimepicker({
+                format: 'dd/mm/yyyy',
+                autoclose: true,
+                startDate:'0d',
+                language:'es'
+            });
         });
         
         $('#seviMant').change(function () {
@@ -206,6 +224,7 @@ try {
             var form = $('form[name=actionMantenedorAtencion]');
             var paciente = form.find('input[name=pacienteMant]').val();
             var servicio = form.find('input[name=seviMant]').val();
+            var fecha = form.find('input[name=fechaMant]').val();
             var podologo = form.find('textarea[name=podoMant]').val();
             var monto = form.find('input[name=precioMant]').val();
             var submit = form.find('input[name=Submit]').val();

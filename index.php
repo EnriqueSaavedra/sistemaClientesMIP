@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 require_once('./clases/utilidad/Link.php');
 //HEADER
@@ -25,4 +26,5 @@ if(isset($_SESSION['USUARIO'])){
 }else{
     require_once(Link::include_file('app/PUBLIC/footer.php'));
 }
+ob_flush();
 ?>
